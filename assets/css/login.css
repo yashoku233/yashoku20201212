@@ -10,7 +10,8 @@ body {
   overflow: hidden;
 }
 body {
-  background: url(/assets/images/login_bg.jpg) no-repeat center/cover;
+  background: url(../images/007WH5Y2ly1ghamzjy0jrj32zq1oe4qs.jpg) no-repeat
+    center/cover;
 }
 .logo {
   margin-top: 20px;
@@ -35,13 +36,16 @@ body {
   display: none;
 }
 
-.layui-form {
-  padding: 0 30px;
+#goToRegi {
+  float: right;
 }
 
-#goToRegi,
 #goToLogin {
   float: right;
+}
+
+.layui-form {
+  padding: 0 30px;
 }
 
 .layui-form-item {
