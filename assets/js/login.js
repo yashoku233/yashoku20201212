@@ -62,6 +62,7 @@ $(function () {
         // 跳转页面 ==> 弹框刚出现，就跳转了（弹框关闭之后在跳转）
         // location.href = "/home/index.html";
 
+        localStorage.setItem("token", res.token);
         // 上面代码的改写
         layer.msg(
           "登录成功, 即将跳转到首页",
